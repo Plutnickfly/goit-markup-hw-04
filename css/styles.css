@@ -209,6 +209,16 @@ header {
   margin-bottom: 50px;
 }
 
+.clients-list {
+  background-color: orange;
+  /* display: flex; */
+}
+.clients {
+  flex-basis: calc((100% - 30px * 6) / 6);
+  background-color: blue;
+  margin-right: 5px;
+}
+
 /* .pics {
   flex-basis: calc((100% - 60px) / 3);
   max-width: 370px;
@@ -218,10 +228,11 @@ header {
   margin-right: 30px;
 } */
 
-.pics-element: {
+.pics-element {
   flex-basis: calc((100% - 60px) / 3);
   max-width: 370px;
 }
+
 .pics-element:not(:nth-child(3n + 3)) {
   margin-right: 30px;
 }
@@ -420,6 +431,7 @@ h3.people-name {
   height: 120px;
   background-color: var(--button-color);
 }
+
 /* .quality-pic {
 } */
 
