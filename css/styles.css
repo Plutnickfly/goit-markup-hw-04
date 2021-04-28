@@ -100,9 +100,9 @@ a {
 } */
 
 .contacts {
-  display: block;
+  /* display: flex;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 32px; */
   margin-left: auto;
   font-weight: 500;
   line-height: 1.14;
@@ -131,11 +131,6 @@ a {
   margin-bottom: 20px;
 }
 
-/* .Contacts-Section-Link::before {
-  background-image: ;
-
-} */
-
 .qualities {
   margin-bottom: -30px;
   margin-right: -30px;
@@ -161,6 +156,8 @@ a {
 .Contacts-Section-Link {
   display: flex;
   align-items: center;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .contact-svg {
